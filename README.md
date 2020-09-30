@@ -38,11 +38,11 @@ void TimerExpiredCallback(void * pData);
 
 ### Other Methods
 stop - Stops the timer from running and resets the internal count \
-pause - Stops the timer from running but does not reset te count \
+pause - Stops the timer from running but does not reset the count \
 reset - Resets the count \
 isRunning - Returns true if the timer is running \
 setInterval - Sets the timer period in milliseconds \
-setPeriodic - true = periodic, false=one-shot \
+setPeriodic - true=periodic, false=one-shot \
 setCallback - Sets the callback function \
 setData - Sets the data sent when the callback is called
 
