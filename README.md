@@ -28,7 +28,9 @@ timer.setCallback(MyCallback);
 ```
 
 Then start the timer:
+```
 timer.start();
+```
 
 You need to create a callback function that will get called when the timer
 expires.  Here is an example prototype:
